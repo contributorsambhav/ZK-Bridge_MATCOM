@@ -1,0 +1,26 @@
+Deploying Sepolia contracts with account: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+Account balance: 186904497704971134
+
+--- Deploying BridgeToken (MATCOM) ---
+BridgeToken deployed to: 0x7d9Ad402a33aFED7A4410522fe97EDcfEE127EeF
+
+--- Deploying SepoliaBridge ---
+SepoliaBridge deployed to: 0xe5fe2b3E33bD1B504e03706bf538DFc303B15577
+
+--- Setting relayer ---
+Relayer set to: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+
+--- Approving bridge to spend tokens ---
+Approved bridge to spend 1000000.0 MCM
+
+========================================
+SEPOLIA DEPLOYMENT COMPLETE
+========================================
+BridgeToken (MCM): 0x7d9Ad402a33aFED7A4410522fe97EDcfEE127EeF
+SepoliaBridge: 0xe5fe2b3E33bD1B504e03706bf538DFc303B15577
+Relayer: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+========================================
+
+Add these to your backend .env:
+SEPOLIA_TOKEN_ADDRESS=0x7d9Ad402a33aFED7A4410522fe97EDcfEE127EeF
+SEPOLIA_BRIDGE_ADDRESS=0xe5fe2b3E33bD1B504e03706bf538DFc303B15577

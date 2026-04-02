@@ -1,0 +1,26 @@
+Deploying Sonic Blaze contracts with account: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+Account balance: 116429675622299999980
+
+--- Deploying WrappedToken (Wrapped MATCOM) ---
+WrappedToken deployed to: 0x23aDB2582D0713eF43961075C284495d3867afEA
+
+--- Deploying SonicBridge ---
+SonicBridge deployed to: 0xe5ec54F76051A19f55155DcC07B791Ccd79b14d2
+
+--- Setting bridge on WrappedToken ---
+Bridge set on WrappedToken to: 0xe5ec54F76051A19f55155DcC07B791Ccd79b14d2
+
+--- Setting relayer ---
+Relayer set to: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+
+========================================
+SONIC BLAZE DEPLOYMENT COMPLETE
+========================================
+WrappedToken (wMCM): 0x23aDB2582D0713eF43961075C284495d3867afEA
+SonicBridge: 0xe5ec54F76051A19f55155DcC07B791Ccd79b14d2
+Relayer: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+========================================
+
+Add these to your backend .env:
+SONIC_TOKEN_ADDRESS=0x23aDB2582D0713eF43961075C284495d3867afEA
+SONIC_BRIDGE_ADDRESS=0xe5ec54F76051A19f55155DcC07B791Ccd79b14d2

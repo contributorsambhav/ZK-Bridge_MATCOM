@@ -1,0 +1,185 @@
+[2026-04-02 20:29:59] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 20:29:59] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 20:30:43] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 20:30:43] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 20:32:30] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 20:32:30] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 20:33:09] ERROR: Failed to connect to Sepolia: server response 522 <none> (request={  }, response={  }, error=null, info={ "requestUrl": "https://rpc.sepolia.org", "responseBody": "error code: 522", "responseStatus": "522 <none>" }, code=SERVER_ERROR, version=6.16.0)
+[2026-04-02 20:33:13] INFO: Connected to Sonic Blaze at block 80403960
+[2026-04-02 20:33:13] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 21:14:35] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:14:35] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:15:16] ERROR: Failed to connect to Sepolia: server response 522 <none> (request={  }, response={  }, error=null, info={ "requestUrl": "https://rpc.sepolia.org", "responseBody": "error code: 522", "responseStatus": "522 <none>" }, code=SERVER_ERROR, version=6.16.0)
+[2026-04-02 21:15:16] INFO: Connected to Sonic Blaze at block 80408924
+[2026-04-02 21:15:16] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 21:25:29] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:25:29] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:25:40] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:25:40] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:26:20] ERROR: Failed to connect to Sepolia: server response 522 <none> (request={  }, response={  }, error=null, info={ "requestUrl": "https://rpc.sepolia.org", "responseBody": "error code: 522", "responseStatus": "522 <none>" }, code=SERVER_ERROR, version=6.16.0)
+[2026-04-02 21:26:21] INFO: Connected to Sonic Blaze at block 80410231
+[2026-04-02 21:26:21] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 21:28:09] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:28:09] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:28:24] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:28:24] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:29:03] ERROR: Failed to connect to Sepolia: server response 522 <none> (request={  }, response={  }, error=null, info={ "requestUrl": "https://rpc.sepolia.org", "responseBody": "error code: 522", "responseStatus": "522 <none>" }, code=SERVER_ERROR, version=6.16.0)
+[2026-04-02 21:29:05] INFO: Connected to Sonic Blaze at block 80410553
+[2026-04-02 21:29:05] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 21:47:35] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:47:35] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:48:15] ERROR: Failed to connect to Sepolia: server response 522 <none> (request={  }, response={  }, error=null, info={ "requestUrl": "https://rpc.sepolia.org", "responseBody": "error code: 522", "responseStatus": "522 <none>" }, code=SERVER_ERROR, version=6.16.0)
+[2026-04-02 21:48:18] INFO: Connected to Sonic Blaze at block 80412785
+[2026-04-02 21:48:18] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 21:57:24] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:57:24] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:57:26] INFO: Connected to Sepolia at block 10575684
+[2026-04-02 21:57:28] INFO: Connected to Sonic Blaze at block 80413844
+[2026-04-02 21:57:28] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 21:58:59] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 21:58:59] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 21:59:00] INFO: Connected to Sepolia at block 10575691
+[2026-04-02 21:59:00] INFO: Connected to Sonic Blaze at block 80414026
+[2026-04-02 21:59:00] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:02:58] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:02:58] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:02:59] INFO: Connected to Sepolia at block 10575711
+[2026-04-02 22:03:00] INFO: Connected to Sonic Blaze at block 80414495
+[2026-04-02 22:03:00] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:05:21] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:05:21] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:05:22] INFO: Connected to Sepolia at block 10575723
+[2026-04-02 22:05:23] INFO: Connected to Sonic Blaze at block 80414782
+[2026-04-02 22:05:23] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:08:59] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:08:59] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:09:01] INFO: Connected to Sepolia at block 10575741
+[2026-04-02 22:09:01] INFO: Connected to Sonic Blaze at block 80415203
+[2026-04-02 22:09:02] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:13:37] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:37] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:42] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:42] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:47] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:47] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:52] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:52] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:57] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:13:57] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:14:56] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:14:57] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:14:57] INFO: Connected to Sepolia at block 10575770
+[2026-04-02 22:14:58] INFO: Connected to Sonic Blaze at block 80415895
+[2026-04-02 22:14:58] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:15:48] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:16:03] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:16:04] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:16:08] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:16:09] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:16:13] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:16:14] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:19:42] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:19:42] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:19:42] INFO: Connected to Sepolia at block 10575794
+[2026-04-02 22:19:43] INFO: Connected to Sonic Blaze at block 80416450
+[2026-04-02 22:19:43] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:24:25] ERROR: [SEPOLIA-POLL] Poll error: could not coalesce error (error={ "code": -32602, "message": "block range extends beyond current head block" }, payload={ "id": 105, "jsonrpc": "2.0", "method": "eth_getLogs", "params": [ { "address": "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512", "fromBlock": "0xa15fc9", "toBlock": "0xa15fc9", "topics": [ "0x90e20a62e0f2a608d33bd96a4e15cb853006a15caf4455f373b7b55de520b68c" ] } ] }, code=UNKNOWN_ERROR, version=6.16.0)
+[2026-04-02 22:34:37] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:34:37] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:34:38] INFO: Connected to Sepolia at block 10575866
+[2026-04-02 22:34:40] INFO: Connected to Sonic Blaze at block 80418187
+[2026-04-02 22:34:40] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:35:10] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:35:10] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:36:15] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:37:49] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-02 22:37:56] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-02 22:38:12] ERROR: [SONIC-POLL] Poll error: Client network socket disconnected before secure TLS connection was established
+[2026-04-02 22:38:15] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:38:20] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:38:24] ERROR: [SONIC-POLL] Poll error: Client network socket disconnected before secure TLS connection was established
+[2026-04-02 22:41:03] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:41:03] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:41:04] INFO: Connected to Sepolia at block 10575897
+[2026-04-02 22:41:06] INFO: Connected to Sonic Blaze at block 80418929
+[2026-04-02 22:41:06] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:43:44] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:43:44] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:43:47] INFO: Connected to Sepolia at block 10575910
+[2026-04-02 22:43:59] INFO: Connected to Sonic Blaze at block 80419269
+[2026-04-02 22:43:59] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:44:15] INFO: Faucet minted 100 MCM to 0x4e5e5586f554ff37f7839f5d70f849d03d5b6deb
+[2026-04-02 22:44:17] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:47:33] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 22:47:33] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 22:47:38] ERROR: Failed to connect to Sepolia: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 22:47:40] INFO: Connected to Sonic Blaze at block 80419705
+[2026-04-02 22:47:40] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 22:48:03] INFO: Faucet minted 100 MCM to 0x4e5e5586f554ff37f7839f5d70f849d03d5b6deb
+[2026-04-02 22:51:14] INFO: Faucet minted 100 MCM to 0x4e5e5586f554ff37f7839f5d70f849d03d5b6deb
+[2026-04-02 23:07:05] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:05] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:30] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:30] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:35] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:35] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:40] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:40] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:45] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:45] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:50] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:50] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:55] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:07:55] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:00] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:00] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:05] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:05] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:10] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:10] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:15] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:15] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:20] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:08:20] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:13:41] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:13:41] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:13:46] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:13:46] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:29:51] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:33:18] INFO: MATCOM Bridge relayer server running on port 3001
+[2026-04-02 23:33:18] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 23:33:20] INFO: Connected to Sepolia at block 10576149
+[2026-04-02 23:33:22] INFO: Connected to Sonic Blaze at block 13801755
+[2026-04-02 23:33:22] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-02 23:33:40] INFO: Faucet minted 100 MCM to 0x4e5e5586f554ff37f7839f5d70f849d03d5b6deb
+[2026-04-02 23:35:21] INFO: [SEPOLIA-POLL] TokensLocked: sender=0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB, amount=10.0, nonce=0
+[2026-04-02 23:35:21] INFO: [SONIC] Minting 10.0 wMCM to 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 23:35:23] INFO: [SEPOLIA-POLL] TokensLocked: sender=0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB, amount=10.0, nonce=0
+[2026-04-02 23:35:24] INFO: [SONIC] Minting 10.0 wMCM to 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 23:35:29] INFO: [SONIC] Minted successfully. Tx: 0xfcfc0495360fc6bda77e5f1322ae6e723d124a9766fdded752dfae778ab2cf78
+[2026-04-02 23:35:29] INFO: [SEPOLIA-POLL] TokensLocked: sender=0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB, amount=10.0, nonce=0
+[2026-04-02 23:35:29] WARN: [SONIC] Nonce 0 already processed, skipping
+[2026-04-02 23:35:33] ERROR: [SEPOLIA-POLL] Failed to process log: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB", "to": "0x105360f8a85a5Db5F515eD680E12Cd6c30f1324B" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x1f2d7903c14befb916d6771f589319fd197d22b8f8161d1226931d110a7ba376", "blockNumber": 13801828, "contractAddress": null, "cumulativeGasUsed": "318334", "from": "0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB", "gasPrice": "1000000001", "gasUsed": "39438", "hash": "0x0bf48daac2a3d15bd5566cc55b8ba49709c4752d6762244c1882a2167a9a5dcf", "index": 1, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x105360f8a85a5Db5F515eD680E12Cd6c30f1324B" }, code=CALL_EXCEPTION, version=6.16.0)
+[2026-04-02 23:35:42] INFO: Faucet minted 100 MCM to 0x4e5e5586f554ff37f7839f5d70f849d03d5b6deb
+[2026-04-02 23:37:03] INFO: [SONIC-POLL] TokensBurned: sender=0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB, amount=1.0, nonce=0
+[2026-04-02 23:37:05] INFO: [SEPOLIA] Releasing 1.0 MCM to 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 23:37:07] INFO: [SONIC-POLL] TokensBurned: sender=0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB, amount=1.0, nonce=0
+[2026-04-02 23:37:08] INFO: [SEPOLIA] Releasing 1.0 MCM to 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 23:37:13] INFO: [SONIC-POLL] TokensBurned: sender=0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB, amount=1.0, nonce=0
+[2026-04-02 23:37:13] INFO: [SEPOLIA] Releasing 1.0 MCM to 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-02 23:37:15] ERROR: [SONIC-POLL] Failed to process log: execution reverted: "SepoliaBridge: nonce already processed" (action="estimateGas", data="0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000265365706f6c69614272696467653a206e6f6e636520616c72656164792070726f6365737365640000000000000000000000000000000000000000000000000000", reason="SepoliaBridge: nonce already processed", transaction={ "data": "0x628efcd70000000000000000000000004e5e5586f554ff37f7839f5d70f849d03d5b6deb0000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000000000000000000", "from": "0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB", "to": "0xee31e7AC6a76aC9e5721288CDEA41b16b2394D95" }, invocation=null, revert={ "args": [ "SepoliaBridge: nonce already processed" ], "name": "Error", "signature": "Error(string)" }, code=CALL_EXCEPTION, version=6.16.0)
+[2026-04-02 23:37:17] ERROR: [SONIC-POLL] Failed to process log: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB", "to": "0xee31e7AC6a76aC9e5721288CDEA41b16b2394D95" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x81b0caf25872721cd744ff7044df05918f80d3afef911945ab6cb21655d16bf1", "blockNumber": 10576169, "contractAddress": null, "cumulativeGasUsed": "17960236", "from": "0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB", "gasPrice": "1000014", "gasUsed": "31790", "hash": "0x1e62b9eb540a2770ef536e8d8c4d00dcfeaca8d589d356e9f944764d52e868aa", "index": 159, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0xee31e7AC6a76aC9e5721288CDEA41b16b2394D95" }, code=CALL_EXCEPTION, version=6.16.0)
+[2026-04-02 23:37:18] INFO: [SEPOLIA] Released successfully. Tx: 0xb2c2398fb48c4e183396ecf3cb3ee66691ac46075e8d82f140db0ae7f3d2afa0
+[2026-04-02 23:40:17] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:40:17] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:46:53] INFO: Faucet minted 100 MCM to 0xec9a6f732ad18e2052fadf781279002b80ed4f69
+[2026-04-02 23:53:13] INFO: [SEPOLIA-POLL] TokensLocked: sender=0xEc9A6F732Ad18E2052fadF781279002B80ed4f69, amount=10.0, nonce=1
+[2026-04-02 23:53:13] INFO: [SONIC] Minting 10.0 wMCM to 0xEc9A6F732Ad18E2052fadF781279002B80ed4f69
+[2026-04-02 23:53:18] INFO: [SEPOLIA-POLL] TokensLocked: sender=0xEc9A6F732Ad18E2052fadF781279002B80ed4f69, amount=10.0, nonce=1
+[2026-04-02 23:53:18] WARN: [SONIC] Nonce 1 already processed, skipping
+[2026-04-02 23:53:20] INFO: [SONIC] Minted successfully. Tx: 0x0cf6c4efcd97ec8d3413ed9c2670d131f932538969c864993683a12a5717708b
+[2026-04-02 23:59:18] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-02 23:59:18] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-03 00:02:33] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-03 00:02:33] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-03 00:10:13] ERROR: [SEPOLIA-POLL] Poll error: could not coalesce error (error={ "code": -32602, "message": "block range extends beyond current head block" }, payload={ "id": 858, "jsonrpc": "2.0", "method": "eth_getLogs", "params": [ { "address": "0xee31e7ac6a76ac9e5721288cdea41b16b2394d95", "fromBlock": "0xa161ce", "toBlock": "0xa161ce", "topics": [ "0x90e20a62e0f2a608d33bd96a4e15cb853006a15caf4455f373b7b55de520b68c" ] } ] }, code=UNKNOWN_ERROR, version=6.16.0)

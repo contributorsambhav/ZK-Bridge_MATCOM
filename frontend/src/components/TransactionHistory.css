@@ -1,0 +1,110 @@
+/* Transaction History styles */
+.tx-history {
+  width: 100%;
+}
+
+.tx-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+.tx-history-header h2 {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+/* Empty state */
+.tx-empty {
+  text-align: center;
+  padding: var(--space-2xl) var(--space-lg);
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+/* Transaction list */
+.tx-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.tx-item {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  position: relative;
+}
+
+.tx-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.direction-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.direction-arrow {
+  color: var(--text-muted);
+  font-size: var(--font-size-xs);
+}
+
+.tx-item-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tx-amount {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.tx-amount strong {
+  font-size: var(--font-size-lg);
+}
+
+.tx-token {
+  font-size: var(--font-size-sm);
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+.tx-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
+
+.tx-sender {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.tx-explorer-link {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--text-accent) !important;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.tx-item:hover .tx-explorer-link {
+  opacity: 1;
+}

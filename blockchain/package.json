@@ -1,0 +1,19 @@
+{
+  "name": "matcom-bridge-contracts",
+  "version": "1.0.0",
+  "description": "MATCOM Bridge smart contracts for Sepolia and Sonic Blaze",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:sepolia": "npx hardhat run scripts/deploy-sepolia.js --network sepolia",
+    "deploy:sonic": "npx hardhat run scripts/deploy-sonic.js --network sonicBlaze"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}

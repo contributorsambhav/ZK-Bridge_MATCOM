@@ -1,0 +1,53 @@
+kchain$ npx hardhat run scripts/deploy-sepolia.js --network sepolia && npx hardhat run scripts/deploy-sonic.js --network sonicTestnet
+Deploying Sepolia contracts with account: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+Account balance: 186906110902690621
+
+--- Deploying BridgeToken (MATCOM) ---
+BridgeToken deployed to: 0x8249A4bFC5fE6E73d04b86d98059897a9903f44B
+
+--- Deploying SepoliaBridge ---
+SepoliaBridge deployed to: 0xee31e7AC6a76aC9e5721288CDEA41b16b2394D95
+
+--- Setting relayer ---
+Relayer set to: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+
+--- Approving bridge to spend tokens ---
+Approved bridge to spend 1000000.0 MCM
+
+========================================
+SEPOLIA DEPLOYMENT COMPLETE
+========================================
+BridgeToken (MCM): 0x8249A4bFC5fE6E73d04b86d98059897a9903f44B
+SepoliaBridge: 0xee31e7AC6a76aC9e5721288CDEA41b16b2394D95
+Relayer: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+========================================
+
+Add these to your backend .env:
+SEPOLIA_TOKEN_ADDRESS=0x8249A4bFC5fE6E73d04b86d98059897a9903f44B
+SEPOLIA_BRIDGE_ADDRESS=0xee31e7AC6a76aC9e5721288CDEA41b16b2394D95
+Deploying Sonic Blaze contracts with account: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+Account balance: 116431251667099999980
+
+--- Deploying WrappedToken (Wrapped MATCOM) ---
+WrappedToken deployed to: 0xfbDb8933B4dE7728795f6AFEDf4bD5E7e43fB04F
+
+--- Deploying SonicBridge ---
+SonicBridge deployed to: 0x105360f8a85a5Db5F515eD680E12Cd6c30f1324B
+
+--- Setting bridge on WrappedToken ---
+Bridge set on WrappedToken to: 0x105360f8a85a5Db5F515eD680E12Cd6c30f1324B
+
+--- Setting relayer ---
+Relayer set to: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+
+========================================
+SONIC BLAZE DEPLOYMENT COMPLETE
+========================================
+WrappedToken (wMCM): 0xfbDb8933B4dE7728795f6AFEDf4bD5E7e43fB04F
+SonicBridge: 0x105360f8a85a5Db5F515eD680E12Cd6c30f1324B
+Relayer: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+========================================
+
+Add these to your backend .env:
+SONIC_TOKEN_ADDRESS=0xfbDb8933B4dE7728795f6AFEDf4bD5E7e43fB04F
+SONIC_BRIDGE_ADDRESS=0x105360f8a85a5Db5F515eD680E12Cd6c30f1324B
