@@ -34,7 +34,7 @@ npm install
 npm start
 ```
 
-Runs on `http://localhost:3001`
+Runs on `https://zk-bridge-matcom.onrender.com`
 
 ### 3. Start Frontend
 
