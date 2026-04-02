@@ -19,15 +19,9 @@ function Header({ wallet, currentChain, relayerOnline, onConnect, onDisconnect }
         {/* Logo */}
         <div className="header-logo">
           <div className="logo-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <rect x="2" y="2" width="24" height="24" rx="6" stroke="url(#logo-grad)" strokeWidth="2"/>
-              <path d="M8 14h12M14 8v12" stroke="url(#logo-grad)" strokeWidth="2" strokeLinecap="round"/>
-              <defs>
-                <linearGradient id="logo-grad" x1="2" y1="2" x2="26" y2="26">
-                  <stop stopColor="#6366f1"/>
-                  <stop offset="1" stopColor="#a855f7"/>
-                </linearGradient>
-              </defs>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <rect x="2" y="2" width="20" height="20" rx="4" stroke="#3b82f6" strokeWidth="1.5"/>
+              <path d="M7 12h10M12 7v10" stroke="#3b82f6" strokeWidth="1.5" strokeLinecap="round"/>
             </svg>
           </div>
           <span className="logo-text">MATCOM</span>

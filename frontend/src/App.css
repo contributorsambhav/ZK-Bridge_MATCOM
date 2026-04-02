@@ -1,5 +1,5 @@
 /* =============================================
-   App-specific styles
+   App-specific styles — formal
    ============================================= */
 
 /* Hero */
@@ -11,38 +11,37 @@
 
 .hero-title {
   font-size: var(--font-size-4xl);
-  font-weight: 900;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  letter-spacing: -0.025em;
   margin-bottom: var(--space-sm);
-  line-height: 1.1;
+  line-height: 1.15;
+  color: var(--text-primary);
 }
 
 .hero-gradient {
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #58a6ff;
 }
 
 .hero-subtitle {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
   color: var(--text-secondary);
   font-weight: 400;
-  max-width: 480px;
+  max-width: 420px;
   margin: 0 auto;
+  line-height: 1.7;
 }
 
 /* Bridge wrapper */
 .bridge-wrapper {
   width: 100%;
-  max-width: 480px;
+  max-width: 460px;
   margin-bottom: var(--space-2xl);
 }
 
 /* History wrapper */
 .history-wrapper {
   width: 100%;
-  max-width: 600px;
+  max-width: 580px;
   margin-bottom: var(--space-2xl);
 }
 
@@ -50,13 +49,13 @@
 .chain-info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   width: 100%;
-  max-width: 600px;
+  max-width: 580px;
 }
 
 .chain-info-card {
-  padding: var(--space-lg);
+  padding: var(--space-md) var(--space-lg);
   display: flex;
   align-items: center;
   gap: var(--space-md);
@@ -64,39 +63,49 @@
 }
 
 .chain-info-icon {
-  font-size: 2rem;
-  width: 48px;
-  height: 48px;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-md);
-  background: var(--bg-glass);
+  background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border-primary);
   flex-shrink: 0;
 }
 
 .chain-info-details h3 {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   margin-bottom: 2px;
+  color: var(--text-primary);
 }
 
 .chain-info-details p {
-  font-size: var(--font-size-sm);
-  color: var(--text-secondary);
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
   margin-bottom: 4px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 0.72rem;
 }
 
 .chain-info-details a {
   font-size: var(--font-size-xs);
   font-weight: 500;
+  text-decoration: none;
+  color: var(--text-accent);
+}
+
+.chain-info-details a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Footer */
 .footer {
   border-top: 1px solid var(--border-primary);
-  padding: var(--space-lg) 0;
+  padding: var(--space-md) 0;
   margin-top: auto;
 }
 
@@ -107,16 +116,17 @@
 }
 
 .footer p {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--text-muted);
+  letter-spacing: 0.01em;
 }
 
 .footer-status {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  font-size: var(--font-size-sm);
-  color: var(--text-secondary);
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
 }
 
 /* Responsive */
