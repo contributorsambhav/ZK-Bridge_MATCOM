@@ -82,7 +82,7 @@ export const SONIC_BRIDGE_ABI = [
 ];
 
 // Backend API URL
-export const API_URL = 'https://zerotrace-bridge.onrender.com/api';
+export const API_URL = 'https://zk-bridge-matcom.onrender.com/api';
 
 // Contract addresses — update after deployment
 export const CONTRACT_ADDRESSES = {
