@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 /**
  * @title SepoliaBridge
- * @notice Bridge contract on Sepolia that locks MATCOM tokens for bridging to Sonic Blaze
+ * @notice Bridge contract on Sepolia that locks ZeroTrace tokens for bridging to Sonic Blaze
  *         and releases them when bridging back.
  * @dev Uses a nonce-based replay protection system. Only the authorized relayer can
  *      call releaseTokens().

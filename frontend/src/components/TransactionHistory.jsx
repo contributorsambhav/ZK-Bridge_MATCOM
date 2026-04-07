@@ -102,7 +102,7 @@ function TransactionHistory({ refreshTrigger }) {
                 <div className="tx-amount">
                   <strong>{parseFloat(tx.amount).toFixed(4)}</strong>
                   <span className="tx-token">
-                    {tx.type === 'sepolia-to-sonic' ? 'MCM' : 'wMCM'}
+                    {tx.type === 'sepolia-to-sonic' ? 'ZT' : 'wZT'}
                   </span>
                 </div>
                 <div className="tx-meta">

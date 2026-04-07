@@ -142,7 +142,7 @@ async function startRelayer(logger) {
           return;
         }
 
-        logger.info(`[SONIC] Minting ${ethers.formatEther(amount)} wMCM to ${sender}`);
+        logger.info(`[SONIC] Minting ${ethers.formatEther(amount)} wZT to ${sender}`);
         const tx = await sonicBridge.mintWrapped(sender, amount, nonce);
         const receipt = await tx.wait();
 
@@ -213,7 +213,7 @@ async function startRelayer(logger) {
                 continue;
               }
 
-              logger.info(`[SONIC] Minting ${ethers.formatEther(amount)} wMCM to ${sender}`);
+              logger.info(`[SONIC] Minting ${ethers.formatEther(amount)} wZT to ${sender}`);
               const tx = await sonicBridge.mintWrapped(sender, amount, nonce);
               const receipt = await tx.wait();
 
@@ -260,7 +260,7 @@ async function startRelayer(logger) {
           return;
         }
 
-        logger.info(`[SEPOLIA] Releasing ${ethers.formatEther(amount)} MCM to ${sender}`);
+        logger.info(`[SEPOLIA] Releasing ${ethers.formatEther(amount)} ZT to ${sender}`);
         const tx = await sepoliaBridge.releaseTokens(sender, amount, nonce);
         const receipt = await tx.wait();
 
@@ -331,7 +331,7 @@ async function startRelayer(logger) {
                 continue;
               }
 
-              logger.info(`[SEPOLIA] Releasing ${ethers.formatEther(amount)} MCM to ${sender}`);
+              logger.info(`[SEPOLIA] Releasing ${ethers.formatEther(amount)} ZT to ${sender}`);
               const tx = await sepoliaBridge.releaseTokens(sender, amount, nonce);
               const receipt = await tx.wait();
 

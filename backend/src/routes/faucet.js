@@ -41,7 +41,7 @@ router.post("/", async (req, res) => {
     const wallet = new ethers.Wallet(PRIVATE_KEY, provider);
     const tokenContract = new ethers.Contract(SEPOLIA_TOKEN_ADDRESS, BRIDGE_TOKEN_ABI, wallet);
 
-    const amountToMint = ethers.parseEther("100"); // 100 MCM per faucet request
+    const amountToMint = ethers.parseEther("100"); // 100 ZT per faucet request
 
     const tx = await tokenContract.mint(address, amountToMint);
 
@@ -63,11 +63,11 @@ router.post("/", async (req, res) => {
     // Only update rate limit if successful
     lastFaucetRequest.set(address.toLowerCase(), Date.now());
 
-    logger.info(`Faucet minted 100 MCM to ${address}`, { txHash: receipt.transactionHash });
+    logger.info(`Faucet minted 100 ZT to ${address}`, { txHash: receipt.transactionHash });
 
     return res.json({
       success: true,
-      message: `Successfully minted 100 MCM to ${address}`,
+      message: `Successfully minted 100 ZT to ${address}`,
       txHash: receipt.transactionHash,
       receipt,
     });

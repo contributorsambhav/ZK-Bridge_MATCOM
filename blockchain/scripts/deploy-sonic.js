@@ -5,8 +5,8 @@ async function main() {
   console.log("Deploying Sonic Blaze contracts with account:", deployer.address);
   console.log("Account balance:", (await hre.ethers.provider.getBalance(deployer.address)).toString());
 
-  // 1. Deploy WrappedToken (Wrapped MATCOM - wMCM)
-  console.log("\n--- Deploying WrappedToken (Wrapped MATCOM) ---");
+  // 1. Deploy WrappedToken (Wrapped ZeroTrace - wZT)
+  console.log("\n--- Deploying WrappedToken (Wrapped ZeroTrace) ---");
   const WrappedToken = await hre.ethers.getContractFactory("WrappedToken");
   const wrappedToken = await WrappedToken.deploy();
   await wrappedToken.waitForDeployment();
@@ -37,7 +37,7 @@ async function main() {
   console.log("\n========================================");
   console.log("SONIC BLAZE DEPLOYMENT COMPLETE");
   console.log("========================================");
-  console.log("WrappedToken (wMCM):", wrappedTokenAddress);
+  console.log("WrappedToken (wZT):", wrappedTokenAddress);
   console.log("SonicBridge:", bridgeAddress);
   console.log("Relayer:", deployer.address);
   console.log("========================================");

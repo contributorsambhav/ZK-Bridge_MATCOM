@@ -1,4 +1,4 @@
-# MATCOM Bridge — Sepolia ↔ Sonic Blaze Testnet
+# ZeroTrace Bridge — Sepolia ↔ Sonic Blaze Testnet
 
 A cross-chain token bridge enabling seamless transfers between Ethereum Sepolia and Sonic Blaze testnet using a **Lock/Mint + Burn/Release** architecture with an off-chain relayer backend.
 
@@ -28,15 +28,15 @@ graph LR
     end
 
     subgraph Sonic Blaze
-        F[SonicBridge.sol] -->|mint wMATCOM| G[User Wallet]
-        G -->|burn wMATCOM| F
+        F[SonicBridge.sol] -->|mint wZeroTrace| G[User Wallet]
+        G -->|burn wZeroTrace| F
         F -->|emit TokensBurned| E
     end
 ```
 
 **Flow:**
-1. **Sepolia → Sonic:** User locks MATCOM tokens on Sepolia → Relayer detects `TokensLocked` → Relayer mints wrapped MATCOM (wMATCOM) on Sonic Blaze
-2. **Sonic → Sepolia:** User burns wMATCOM on Sonic → Relayer detects `TokensBurned` → Relayer releases original MATCOM on Sepolia
+1. **Sepolia → Sonic:** User locks ZeroTrace tokens on Sepolia → Relayer detects `TokensLocked` → Relayer mints wrapped ZeroTrace (wZeroTrace) on Sonic Blaze
+2. **Sonic → Sepolia:** User burns wZeroTrace on Sonic → Relayer detects `TokensBurned` → Relayer releases original ZeroTrace on Sepolia
 
 ---
 
@@ -54,7 +54,7 @@ The smart contracts deployed to both chains, built with Hardhat.
 - Compiler: solc 0.8.20
 
 #### [NEW] blockchain/contracts/BridgeToken.sol
-- ERC20 token "MATCOM" (MCM) with:
+- ERC20 token "ZeroTrace" (ZT) with:
   - Initial supply minted to deployer (1,000,000 tokens)
   - Standard ERC20 functionality
   - Deployed only on Sepolia (source chain)
@@ -66,13 +66,13 @@ The smart contracts deployed to both chains, built with Hardhat.
 - Tracks processed nonces to prevent replay attacks
 
 #### [NEW] blockchain/contracts/WrappedToken.sol
-- ERC20 "Wrapped MATCOM" (wMCM) on Sonic Blaze
+- ERC20 "Wrapped ZeroTrace" (wZT) on Sonic Blaze
 - `mint(address to, uint256 amount)`: Only callable by bridge contract
 - `burn(uint256 amount)`: Burns tokens from caller
 
 #### [NEW] blockchain/contracts/SonicBridge.sol
-- `mintWrapped(address to, uint256 amount, uint256 nonce)`: Only callable by relayer, mints wMATCOM, replay protection via nonce
-- `burnWrapped(uint256 amount)`: Burns user's wMATCOM, emits `TokensBurned(address sender, uint256 amount, uint256 nonce)`
+- `mintWrapped(address to, uint256 amount, uint256 nonce)`: Only callable by relayer, mints wZeroTrace, replay protection via nonce
+- `burnWrapped(uint256 amount)`: Burns user's wZeroTrace, emits `TokensBurned(address sender, uint256 amount, uint256 nonce)`
 - `setRelayer(address)`: Owner sets the relayer address
 
 #### [NEW] blockchain/scripts/deploy-sepolia.js
@@ -178,12 +178,12 @@ Vite + vanilla JS (or React) SPA with premium dark glassmorphism UI.
 > - Sonic Blaze S tokens from a faucet (for gas on Sonic)
 
 > [!NOTE]
-> **Token Design**: We'll deploy a custom ERC20 "MATCOM" (MCM) on Sepolia as the source token, and a "Wrapped MATCOM" (wMCM) on Sonic Blaze. The bridge moves MCM ↔ wMCM. Users need MCM tokens to test bridging (minted to deployer initially).
+> **Token Design**: We'll deploy a custom ERC20 "ZeroTrace" (ZT) on Sepolia as the source token, and a "Wrapped ZeroTrace" (wZT) on Sonic Blaze. The bridge moves ZT ↔ wZT. Users need ZT tokens to test bridging (minted to deployer initially).
 
 ## Open Questions
 
-1. **Token name/symbol**: I'm using "MATCOM" / "MCM" based on the project name. Would you prefer different names?
-2. **Initial supply**: Planning 1,000,000 MCM tokens. Is this fine?
+1. **Token name/symbol**: I'm using "ZeroTrace" / "ZT" based on the project name. Would you prefer different names?
+2. **Initial supply**: Planning 1,000,000 ZT tokens. Is this fine?
 3. **Frontend framework**: Planning to use React with Vite. Any preference?
 
 ## Verification Plan
@@ -199,5 +199,5 @@ Vite + vanilla JS (or React) SPA with premium dark glassmorphism UI.
 3. Start frontend dev server  
 4. Connect MetaMask, approve tokens, bridge Sepolia → Sonic
 5. Verify wrapped tokens received on Sonic
-6. Bridge back: burn wMATCOM on Sonic, verify release on Sepolia
+6. Bridge back: burn wZeroTrace on Sonic, verify release on Sepolia
 7. Check transaction history in frontend

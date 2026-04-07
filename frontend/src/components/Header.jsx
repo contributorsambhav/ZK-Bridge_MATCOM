@@ -24,7 +24,7 @@ function Header({ wallet, currentChain, relayerOnline, onConnect, onDisconnect }
               <path d="M7 12h10M12 7v10" stroke="#3b82f6" strokeWidth="1.5" strokeLinecap="round"/>
             </svg>
           </div>
-          <span className="logo-text">MATCOM</span>
+          <span className="logo-text">ZeroTrace</span>
           <span className="logo-badge">Bridge</span>
         </div>
 

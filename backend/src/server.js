@@ -40,7 +40,7 @@ app.get("/health", (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  logger.info(`MATCOM Bridge relayer server running on port ${PORT}`);
+  logger.info(`ZeroTrace Bridge relayer server running on port ${PORT}`);
 
   // Start the relayer event listeners
   startRelayer(logger).catch((err) => {

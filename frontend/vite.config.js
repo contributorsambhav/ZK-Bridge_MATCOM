@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://zk-bridge-matcom.onrender.com',
+        target: 'https://zerotrace-bridge.onrender.com',
         changeOrigin: true,
       },
     },

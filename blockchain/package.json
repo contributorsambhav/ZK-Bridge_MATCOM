@@ -1,7 +1,7 @@
 {
-  "name": "matcom-bridge-contracts",
+  "name": "zerotrace-bridge-contracts",
   "version": "1.0.0",
-  "description": "MATCOM Bridge smart contracts for Sepolia and Sonic Blaze",
+  "description": "ZeroTrace Bridge smart contracts for Sepolia and Sonic Blaze",
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",

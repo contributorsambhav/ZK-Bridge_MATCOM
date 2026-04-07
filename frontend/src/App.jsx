@@ -97,7 +97,7 @@ function App() {
         {/* Hero section */}
         <div className="hero animate-fade-in-up">
           <h1 className="hero-title">
-            <span className="hero-gradient">MATCOM</span> Bridge
+            <span className="hero-gradient">ZeroTrace</span> Bridge
           </h1>
           <p className="hero-subtitle">
             Transfer tokens seamlessly between Ethereum Sepolia and Sonic Blaze
@@ -147,7 +147,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>MATCOM Bridge — Built for cross-chain interoperability</p>
+          <p>ZeroTrace Bridge — Built for cross-chain interoperability</p>
           <div className="footer-status">
             <span className={`dot-pulse ${relayerOnline ? 'online' : 'offline'}`}></span>
             <span>Relayer {relayerOnline ? 'Online' : 'Offline'}</span>

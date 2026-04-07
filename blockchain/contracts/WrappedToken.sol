@@ -5,8 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
- * @title WrappedToken (Wrapped MATCOM)
- * @notice Wrapped ERC20 token on Sonic Blaze representing bridged MATCOM tokens.
+ * @title WrappedToken (Wrapped ZeroTrace)
+ * @notice Wrapped ERC20 token on Sonic Blaze representing bridged ZeroTrace tokens.
  * @dev Only the bridge contract can mint/burn these tokens.
  */
 contract WrappedToken is ERC20, Ownable {
@@ -20,7 +20,7 @@ contract WrappedToken is ERC20, Ownable {
         _;
     }
 
-    constructor() ERC20("Wrapped MATCOM", "wMCM") Ownable(msg.sender) {}
+    constructor() ERC20("Wrapped ZeroTrace", "wZT") Ownable(msg.sender) {}
 
     function decimals() public pure override returns (uint8) {
         return _DECIMALS;

@@ -1,4 +1,4 @@
-# MATCOM Bridge
+# ZeroTrace Bridge
 
 Cross-chain token bridge between **Ethereum Sepolia** and **Sonic Blaze** testnet using a Lock/Mint + Burn/Release architecture.
 
@@ -34,7 +34,7 @@ npm install
 npm start
 ```
 
-Runs on `https://zk-bridge-matcom.onrender.com`
+Runs on `https://zerotrace-bridge.onrender.com`
 
 ### 3. Start Frontend
 
@@ -57,8 +57,8 @@ Opens at `http://localhost:5173`
 
 ## Token Flow
 
-- **Sepolia → Sonic Blaze**: Lock MCM → Relayer mints wMCM  
-- **Sonic Blaze → Sepolia**: Burn wMCM → Relayer releases MCM  
+- **Sepolia → Sonic Blaze**: Lock ZT → Relayer mints wZT  
+- **Sonic Blaze → Sepolia**: Burn wZT → Relayer releases ZT  
 
 ## Backend `.env` (after deployment)
 

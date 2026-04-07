@@ -5,14 +5,14 @@ async function main() {
   console.log("Deploying Sepolia contracts with account:", deployer.address);
   console.log("Account balance:", (await hre.ethers.provider.getBalance(deployer.address)).toString());
 
-  // 1. Deploy BridgeToken (MATCOM - MCM)
+  // 1. Deploy BridgeToken (ZeroTrace - ZT)
   let tokenAddress = process.env.EXISTING_TOKEN;
   let bridgeToken;
   if (tokenAddress) {
     console.log("\n--- Using existing BridgeToken at:", tokenAddress);
     bridgeToken = await hre.ethers.getContractAt("BridgeToken", tokenAddress);
   } else {
-    console.log("\n--- Deploying BridgeToken (MATCOM) ---");
+    console.log("\n--- Deploying BridgeToken (ZeroTrace) ---");
     const BridgeToken = await hre.ethers.getContractFactory("BridgeToken");
     const initialSupply = 1000000; // 1M tokens
     bridgeToken = await BridgeToken.deploy(initialSupply);
@@ -40,13 +40,13 @@ async function main() {
   const approveAmount = hre.ethers.parseEther("1000000");
   const approveTx = await bridgeToken.approve(bridgeAddress, approveAmount);
   await approveTx.wait();
-  console.log("Approved bridge to spend", hre.ethers.formatEther(approveAmount), "MCM");
+  console.log("Approved bridge to spend", hre.ethers.formatEther(approveAmount), "ZT");
 
   // Summary
   console.log("\n========================================");
   console.log("SEPOLIA DEPLOYMENT COMPLETE");
   console.log("========================================");
-  console.log("BridgeToken (MCM):", tokenAddress);
+  console.log("BridgeToken (ZT):", tokenAddress);
   console.log("SepoliaBridge:", bridgeAddress);
   console.log("Relayer:", deployer.address);
   console.log("========================================");

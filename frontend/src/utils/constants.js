@@ -28,15 +28,15 @@ export const CHAINS = {
 
 // Token info
 export const TOKENS = {
-  MCM: {
-    name: 'MATCOM',
-    symbol: 'MCM',
+  ZT: {
+    name: 'ZeroTrace',
+    symbol: 'ZT',
     decimals: 18,
     chain: 'sepolia',
   },
-  wMCM: {
-    name: 'Wrapped MATCOM',
-    symbol: 'wMCM',
+  wZT: {
+    name: 'Wrapped ZeroTrace',
+    symbol: 'wZT',
     decimals: 18,
     chain: 'sonic',
   },
@@ -82,7 +82,7 @@ export const SONIC_BRIDGE_ABI = [
 ];
 
 // Backend API URL
-export const API_URL = 'https://zk-bridge-matcom.onrender.com/api';
+export const API_URL = 'https://zerotrace-bridge.onrender.com/api';
 
 // Contract addresses — update after deployment
 export const CONTRACT_ADDRESSES = {

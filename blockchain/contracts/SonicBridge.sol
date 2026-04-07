@@ -7,7 +7,7 @@ import "./WrappedToken.sol";
 
 /**
  * @title SonicBridge
- * @notice Bridge contract on Sonic Blaze that mints wrapped MATCOM when tokens
+ * @notice Bridge contract on Sonic Blaze that mints wrapped ZeroTrace when tokens
  *         are locked on Sepolia, and burns them when users want to bridge back.
  * @dev Uses nonce-based replay protection. Only the authorized relayer can mint.
  */

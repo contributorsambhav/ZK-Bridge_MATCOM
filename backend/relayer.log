@@ -183,3 +183,27 @@
 [2026-04-03 00:02:33] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
 [2026-04-03 00:02:33] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
 [2026-04-03 00:10:13] ERROR: [SEPOLIA-POLL] Poll error: could not coalesce error (error={ "code": -32602, "message": "block range extends beyond current head block" }, payload={ "id": 858, "jsonrpc": "2.0", "method": "eth_getLogs", "params": [ { "address": "0xee31e7ac6a76ac9e5721288cdea41b16b2394d95", "fromBlock": "0xa161ce", "toBlock": "0xa161ce", "topics": [ "0x90e20a62e0f2a608d33bd96a4e15cb853006a15caf4455f373b7b55de520b68c" ] } ] }, code=UNKNOWN_ERROR, version=6.16.0)
+[2026-04-08 00:22:05] INFO: ZeroTrace Bridge relayer server running on port 3001
+[2026-04-08 00:22:05] INFO: Relayer wallet: 0x4E5E5586F554Ff37F7839F5d70f849D03D5B6dEB
+[2026-04-08 00:22:07] INFO: Connected to Sepolia at block 10611103
+[2026-04-08 00:22:09] INFO: Connected to Sonic Blaze at block 14043056
+[2026-04-08 00:22:09] INFO: Relayer listeners active — watching for bridge events on both chains
+[2026-04-08 00:25:46] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:25:57] ERROR: [SONIC-POLL] Poll error: Client network socket disconnected before secure TLS connection was established
+[2026-04-08 00:27:45] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:29:04] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:29:30] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:30:48] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:31:03] ERROR: [SONIC-POLL] Poll error: Client network socket disconnected before secure TLS connection was established
+[2026-04-08 00:31:06] ERROR: [SONIC-POLL] Poll error: Client network socket disconnected before secure TLS connection was established
+[2026-04-08 00:31:17] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:32:25] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:32:30] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:32:35] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:33:05] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:33:07] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:34:10] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:34:11] ERROR: [SONIC-POLL] Poll error: socket hang up
+[2026-04-08 00:34:30] ERROR: [SONIC-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:34:30] ERROR: [SEPOLIA-POLL] Poll error: request timeout (code=TIMEOUT, version=6.16.0)
+[2026-04-08 00:36:16] ERROR: [SONIC-POLL] Poll error: socket hang up

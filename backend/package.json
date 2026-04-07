@@ -1,7 +1,7 @@
 {
-  "name": "matcom-bridge-backend",
+  "name": "zerotrace-bridge-backend",
   "version": "1.0.0",
-  "description": "MATCOM Bridge relayer backend server",
+  "description": "ZeroTrace Bridge relayer backend server",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

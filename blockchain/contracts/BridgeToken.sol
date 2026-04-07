@@ -5,15 +5,15 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
- * @title BridgeToken (MATCOM)
- * @notice ERC20 token deployed on Sepolia as the source asset for the MATCOM Bridge.
+ * @title BridgeToken (ZeroTrace)
+ * @notice ERC20 token deployed on Sepolia as the source asset for the ZeroTrace Bridge.
  * @dev Initial supply is minted to the deployer. This is the "real" token that gets
  *      locked in the SepoliaBridge when bridging to Sonic Blaze.
  */
 contract BridgeToken is ERC20, Ownable {
     uint8 private constant _DECIMALS = 18;
 
-    constructor(uint256 initialSupply) ERC20("MATCOM", "MCM") Ownable(msg.sender) {
+    constructor(uint256 initialSupply) ERC20("ZeroTrace", "ZT") Ownable(msg.sender) {
         _mint(msg.sender, initialSupply * 10 ** _DECIMALS);
     }
 

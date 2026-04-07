@@ -28,7 +28,7 @@ function BridgeCard({ wallet, currentChain, onConnect, onBridgeComplete }) {
   const destChain = direction === 'sepolia-to-sonic' ? 'sonic' : 'sepolia';
   const sourceConfig = CHAINS[sourceChain];
   const destConfig = CHAINS[destChain];
-  const token = direction === 'sepolia-to-sonic' ? TOKENS.MCM : TOKENS.wMCM;
+  const token = direction === 'sepolia-to-sonic' ? TOKENS.ZT : TOKENS.wZT;
 
   // Fetch balances
   const refreshBalances = useCallback(async () => {
@@ -205,7 +205,7 @@ function BridgeCard({ wallet, currentChain, onConnect, onBridgeComplete }) {
                   className={`faucet-btn${faucetStatus === 'success' ? ' faucet-btn--success' : ''}`}
                   onClick={handleFaucet}
                   disabled={faucetStatus === 'loading'}
-                  title="Get 100 free MCM test tokens"
+                  title="Get 100 free ZT test tokens"
                 >
                   {faucetStatus === 'loading' ? (
                     <><span className="spinner spinner-sm"></span> Minting...</>
@@ -242,7 +242,7 @@ function BridgeCard({ wallet, currentChain, onConnect, onBridgeComplete }) {
         <div className="receive-display">
           <span className="receive-amount">{amount || '0.0'}</span>
           <span className="receive-token">
-            {direction === 'sepolia-to-sonic' ? TOKENS.wMCM.symbol : TOKENS.MCM.symbol}
+            {direction === 'sepolia-to-sonic' ? TOKENS.wZT.symbol : TOKENS.ZT.symbol}
           </span>
         </div>
       </div>
@@ -260,7 +260,7 @@ function BridgeCard({ wallet, currentChain, onConnect, onBridgeComplete }) {
           </div>
           <div className="info-row">
             <span>You Receive</span>
-            <span className="info-value highlight">{amount} {direction === 'sepolia-to-sonic' ? 'wMCM' : 'MCM'}</span>
+            <span className="info-value highlight">{amount} {direction === 'sepolia-to-sonic' ? 'wZT' : 'ZT'}</span>
           </div>
         </div>
       )}
@@ -275,7 +275,7 @@ function BridgeCard({ wallet, currentChain, onConnect, onBridgeComplete }) {
       {/* Faucet success message */}
       {faucetStatus === 'success' && (
         <div className="bridge-success">
-          <span>✓</span> 100 MCM minted to your wallet!
+          <span>✓</span> 100 ZT minted to your wallet!
           {faucetTxHash && (
             <a
               href={`${sourceConfig.explorer}/tx/${faucetTxHash}`}
